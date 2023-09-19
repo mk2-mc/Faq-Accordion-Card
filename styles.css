@@ -133,6 +133,14 @@ button {
     margin: 0 2rem;
   }
   
+  .card::after {
+    content: url("images/illustration-box-desktop.svg");
+    position: absolute;
+    bottom: 7rem;
+    left: -5.75rem;
+    z-index: 1;
+  }
+  
   .img-container {
     overflow: hidden;
     width: 100%;
@@ -148,12 +156,6 @@ button {
     top: auto;
     bottom: 4.5rem;
     left: -5.25rem;
-  }
-  
-  .box-img {
-    position: absolute;
-    bottom: 7rem;
-    left: -5.75rem;
   }
   
   .faq {
