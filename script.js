@@ -6,7 +6,7 @@ for (let i = 0; i < acc.length; i++) {
     const isSelected = this.classList.contains("selected");
     
     // Close all panels
-    for (let j = 0; j < acc.length; j++ ) {
+    for (let j = 0; j < acc.length; j++) {
       acc[j].classList.remove("selected");
       acc[j].firstElementChild.classList.remove("arrow-up");
       acc[j].nextElementSibling.style.maxHeight = null;
